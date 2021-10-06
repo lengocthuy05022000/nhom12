@@ -1,9 +1,4 @@
 <?php
-    header("COntent-Type:application/json; charset=UTF-8");
-    header("Access-Control_Allow-Method;POST");
-
-    include_once('../config/database.php');
-    include_once('../objects/product.php');
 
     $database= new Database();
     $db=$database->getConnection();
